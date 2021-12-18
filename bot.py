@@ -1,18 +1,13 @@
 import discord
-import os 
-from dotenv import load_dotenv
-from discord.ext import commands
+import random
 
-load_dotenv()
+TOKEN = OTIxNTIyMDU2NjQwNzQxNDQ3.Yb0ISw.rgYWY-PdoGWOSlJJLP2XIlMUJJM
 
-client = commands.Bot( command_prefix=" / " )
+client = discord.Client()
 
 @client.event
 async def on_ready():
-  print("Bot is up and ready!")
+  print('We have logged in as {0.user}'.format(client))
   
-@client.event
-async def hello( ):
-  await ctx.send("Hi!")
-  
-client.run("OTIxNTIyMDU2NjQwNzQxNDQ3.Yb0ISw.rgYWY-PdoGWOSlJJLP2XIlMUJJM")
+client.run(TOKEN)
+
