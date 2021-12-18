@@ -1,7 +1,7 @@
 import discord
 import random
 
-TOKEN = 'OTIxNTIyMDU2NjQwNzQxNDQ3.Yb0ISw.rgYWY-PdoGWOSlJJLP2XIlMUJJM'
+TOKEN = 'OTIxNTIyMDU2NjQwNzQxNDQ3.Yb0ISw.yjCySIduVuk91juzx1B02gaVrIY'
 
 client = discord.Client()
 
