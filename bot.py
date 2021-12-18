@@ -1,3 +1,5 @@
+#you can find this code on Code Palace's youtube page
+
 import discord
 import random
 
@@ -16,18 +18,18 @@ async def on_message(message):
   channel = str(message.channel.name)
   print(f'{username}: {user_message} ({channel})')
   
-  if message.author = client.user
+  if message.author == client.user:
     return
   
-  if message.channel.name == 'general'
-    if user_message.lower() == 'hello':
+  if message.channel.name == 'socialize':
+    if user_message.lower() == 'hello': 
       await message.channel.send(f'Hello {username}!')
       return
-    elif username.message() == 'bye':
-      await message.channel.send(f'Goodbye {username}!')
+    elif user_message.lower() == 'bye':
+      await message.channel.send(f'See you later {username}!')
       return
-    elif user_message.lower() == '!random'
-      response = f'This is your random number: {random.randrange(10000000)}
+    elif user_message.lower() == '!random':
+      response = f'This is your random number: {random.randrange(10000000)}'
       await message.channel.send(response)
       return
   
