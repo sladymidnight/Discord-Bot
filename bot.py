@@ -1,16 +1,3 @@
-# this function will add two values
-def add(x, y): 
-  return x + y
-# this fuction will subtract two values
-def subtract(x, y):
-  return x - y
-# this function will multiply two values
-def multiply(x, y):
-  return x * y
-# this function will divide two values
-def divide(x, y):
-  return x / y
-
 import discord
 import random
 
