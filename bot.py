@@ -37,32 +37,3 @@ async def on_message(message):
     if user_message.lower() == '!anywhere':
       await message.channel.send('This can be used anywhere!')
       return
-
-import time 
-global eggplants 
-global condoms
-eggplants = 0 
-condoms = 0 
-
-def start() : 
-  print ("Hello all of the whores who come!")
-  name = input("What is your stripper name:")
-  print("Welcome, "+name+" !")
-  print("Your objective is to collect eggplants and condoms before the show.")
-  print("Each eggplant you collect, you will get a condom.")
-  choice = input("Do you want to continue Y/N")
-  if choice == "Y":
-    def begin() :
-      if choice == "N":
-        print("Goodbye you fucking stick up the ass party pooper.")
-  def start() :
-    print("Let us collect the dil- I mean eggplants.")
-    pick = input("Would you like to pick up this eggplants Y/N")
-    if pick == "Y":
-      time.sleep(1)
-      print ("You picked up the purple, big, volumed...uhhhh....eggplant!")
-
-start()
-
-  
-client.run(TOKEN)
