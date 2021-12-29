@@ -1,5 +1,6 @@
 import discord
 import random
+import timeit
 
 TOKEN = 'OTIxODE4MjEyODY0MjI5NDA3.Yb4cHA.ZMQe5UVU_4rcASlxJpu5-97IFrE'
 
@@ -33,7 +34,26 @@ async def on_message(message):
     elif user_message.lower() == '!ping':
       await message.channel.send(f'Pong you dirty whore {username}!')
       return
-    
+
+    elif user_message.lower() == 'whore':
+        await message.channel.send(f'you are right, you are a whore!')
+        return
+
+    elif user_message.lower() == 'commands':
+        await message.channel.send(f'The commands are hello, bye, !random, !ping, and whore')
+        return
+
+    elif user_message.lower() == 'weather':
+        await message.channel.send(f'I am not a meterologist')
+        return
+
+    timeit
+
+    square_numbers = []
+    for num in range [1, 1000]:
+        square_numbers.append(num**2)
+
+        
     if user_message.lower() == '!anywhere':
       await message.channel.send('This can be used anywhere!')
       return
