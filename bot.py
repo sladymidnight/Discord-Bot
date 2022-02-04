@@ -2,7 +2,7 @@ import discord
 import random
 import timeit
 
-TOKEN = 'OTIxODE4MjEyODY0MjI5NDA3.Yb4cHA.ZMQe5UVU_4rcASlxJpu5-97IFrE'
+TOKEN = ''
 
 client = discord.Client()
 
